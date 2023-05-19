@@ -1,0 +1,16 @@
+const people =[]
+people.push("evan")
+people.push ("kelechi")
+people.push ("nduka")
+people.push ("isreal") 
+people.push ("kelvin") 
+people.push ("justina")
+people.push ("dolapo") 
+people.push ("ifeayin")
+people.push ("folarin")
+people.push("julius")
+console.log(people)
+people.pop()
+console.log(people)
+people.shift()
+console.log(people);
