@@ -2020,10 +2020,30 @@ const countries = [
     const card = document.createElement("div");
     card.classList.add("card");
   
-    const name = document.createElement("h2");
+    const name = document.createElement("h1");
     name.classList.add("card__name");
     name.textContent = country.name;
+
+    const capital = document.createElement("h3");
+    capital.classList.add("card__capital");
+    capital.textContent = country.capital;
+
+    const languages = document.createElement("h5");
+    languages.classList.add("card__languages");
+    languages.textContent = country.languages;
+
+    const population = document.createElement("p");
+    population.classList.add("card__population");
+    population.textContent = country.population;
+
+    const currency = document.createElement("p");
+    currency.classList.add("card__currency");
+    currency.textContent = country.currency;
   
     card.append(name);0
+    card.append(capital);0
+    card.append(languages);0
+    card.append(population);0
+    card.append (currency);0
     cardContainer.appendChild(card);
   });
