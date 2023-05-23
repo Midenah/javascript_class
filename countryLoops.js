@@ -2022,23 +2022,23 @@ const countries = [
   
     const name = document.createElement("h1");
     name.classList.add("card__name");
-    name.textContent = country.name;
+    name.textContent =("Country : "+country.name);
 
     const capital = document.createElement("h3");
     capital.classList.add("card__capital");
-    capital.textContent = country.capital;
+    capital.textContent = ("Capital : " +country.capital);
 
     const languages = document.createElement("h5");
     languages.classList.add("card__languages");
-    languages.textContent = country.languages;
+    languages.textContent =("Languages : "  +country.languages);
 
     const population = document.createElement("p");
     population.classList.add("card__population");
-    population.textContent = country.population;
+    population.textContent = ("Population : "+country.population);
 
     const currency = document.createElement("p");
     currency.classList.add("card__currency");
-    currency.textContent = country.currency;
+    currency.textContent = ("Currency : " +country.currency);
   
     card.append(name);0
     card.append(capital);0
