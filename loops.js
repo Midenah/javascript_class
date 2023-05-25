@@ -139,4 +139,8 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 //14
 //15
 
-//level 2
+// //level 2
+// let num =   'fe3jo1gl124g'
+// for(let i = 0; i <= num.length;i++){
+//   console.log(i)
+// }
