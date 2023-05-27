@@ -136,6 +136,10 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 // console.log([even, odd])
 
 //13
+let num = [3,4,5,6,7]
+for (let i = 0; i<= num[2]; i++){
+  console.log(i)
+}
 //14
 //15
 
