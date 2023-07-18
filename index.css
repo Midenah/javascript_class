@@ -6,16 +6,25 @@
 #card-container {
   margin-top: 3%;
   margin-left: 5%;
+  width: 100%;
+  align-items: center;
 }
 #card-container .card {
   border: 1px solid black;
   height: 180px;
   width: 500px;
+  align-items: center;
+  justify-content: center;
   background: #f6f0f0;
   border-radius: 18px;
   padding-left: 3%;
   padding-top: 3%;
   margin-bottom: 3%;
+}
+@media screen and (max-width: 768px) {
+  #card-container .card {
+    width: 350px;
+  }
 }
 #card-container .card h1 {
   color: rgba(76, 0, 130, 0.9176470588);
