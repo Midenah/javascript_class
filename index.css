@@ -10,7 +10,7 @@
   align-items: center;
 }
 #card-container .card {
-  border: 1px solid black;
+  border: 1px solid #100f0f;
   height: 180px;
   width: 500px;
   align-items: center;
